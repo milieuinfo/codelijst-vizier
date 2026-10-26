@@ -1,0 +1,4 @@
+_id,_type,topConceptOf,inScheme,prefLabel,altLabel,notation,definition,scopeNote,broader,exactMatch,closeMatch,seeAlso
+,,,,,,,,,,,,
+conceptscheme:vizier,skos:ConceptScheme,,,conceptschema vizier,,,TODO: definitie van het conceptschema vizier.,,,,,
+voorbeeld,skos:Concept,conceptscheme:vizier,conceptscheme:vizier,voorbeeldconcept,,voorbeeld,TODO: voorbeeldconcept; vervang door de eigenlijke concepten.,,,,,

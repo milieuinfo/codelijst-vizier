@@ -1,0 +1,3 @@
+id,_type,definition,inScheme,code,note,prefLabel,topConceptOf,hasTopConcept
+https://data.omgeving.vlaanderen.be/id/concept/vizier/voorbeeld,http://www.w3.org/2004/02/skos/core#Concept,TODO: voorbeeldconcept; vervang door de eigenlijke concepten.,https://data.omgeving.vlaanderen.be/id/conceptscheme/vizier,voorbeeld,TODO: voorbeeldconcept; vervang door de eigenlijke concepten.,voorbeeldconcept,https://data.omgeving.vlaanderen.be/id/conceptscheme/vizier,null
+https://data.omgeving.vlaanderen.be/id/conceptscheme/vizier,http://www.w3.org/2004/02/skos/core#ConceptScheme,TODO: definitie van het conceptschema vizier.,null,null,TODO: definitie van het conceptschema vizier.,conceptschema vizier,null,https://data.omgeving.vlaanderen.be/id/concept/vizier/voorbeeld
