@@ -217,10 +217,6 @@ const jsonOptions = {"file": config.skos.path + config.skos.name + '/' + config.
 
 const parquetOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.parquet, "frame": frame_skos_no_prefixes}
 
-const excelOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xlsx,
-    "sourcefile": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv,
-    "sheetName": config.types}
-
 const skos_prefixes = Object.assign( {}, config.skos.prefixes, config.prefixes, { '@base' : config.skos.prefixes.concept })
 
 const skos_context = JSON.parse(readFileSync(config.source.path + config.source.context));
@@ -250,7 +246,6 @@ const skosOptions = {
     "ntriplesPath": ntriplesPath,
     "csvOptions": csvOptions,
     "parquetOptions": parquetOptions,
-    "excelOptions": excelOptions,
     //"xsdOptions": xsdOptions
 }
 
